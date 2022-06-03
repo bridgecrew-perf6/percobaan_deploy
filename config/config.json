@@ -1,0 +1,22 @@
+{
+  "debug": true,
+  "server": {
+    "address": ":8080"
+  },
+  "context": {
+    "timeout": 2
+  },
+  "database": {
+
+    "host": "localhost",
+    "port": "5432",
+    "user": "admin",
+    "pass": "Finalproject",
+    "name": "finalproject"
+
+  },
+  "jwt": {
+    "secret": "db_hms",
+    "expired": 1
+  }
+}
